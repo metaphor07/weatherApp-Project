@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerlinks}}
+</head>
+
+<body>
+   
+   {{>navbar}}
+    <!-- main Header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 co-12 mx-auto">
+                <div class="row">
+                    <!-- left side div -->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errimg">
+                            <img src="images/404.jpg" alt="photo" class="img-fluid">
+                        </figure>
+                    
+                        <p>Welcome to Metaphor's World</p>
+                        <h1>{{errorMsg}}</h1>
+                        <!-- <a href="...."><button>About me</button></a> -->
+                    </div>
+                    <!-- right side div -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer code -->
+    {{>footer}}
+</body>
+
+</html>
